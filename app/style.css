@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Lexend+Deca & family= Merriweather:wght@300;400 & family= Overpass:wght@400;700 & family= Raleway : poids@400;700 & family= Roboto:poids@400;700 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Inter:wght@400;700 & family= Lexend+Deca & family= Merriweather:wght@300;400 & family= Passage supérieur : wght@400;700 & family= Raleway:wght@400;700 & family= Roboto:wght@400;700 & display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.3;
+  background: hsl(233, 47%, 7%);
+}
+@media (max-width: 374px) {
+  body .hide-for-mobile {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  body .hide-for-desktop {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+
+.boite {
+  margin: 100px;
+}
+
+.boxing {
+  width: 1110px;
+  height: 449px;
+  border-radius: 5px;
+  background-color: hsl(244, 38%, 16%);
+}
+.boxing .box1 {
+  width: 566px;
+  height: 449px;
+}
+.boxing .box1 .ecri {
+  position: absolute;
+}
+.boxing .box1 .ecri h1 {
+  padding-top: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+}
+.boxing .box1 .ecri h1 span {
+  color: hsl(277, 64%, 61%);
+}
+.boxing .box1 .ecri p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400px;
+}
+.boxing .box1 .last {
+  position: relative;
+  padding-top: 330px;
+  justify-content: space-between;
+  width: 325px;
+  height: 60px;
+}
+.boxing .box1 .last .b1 h1, .boxing .box1 .last .b3 h1, .boxing .box1 .last .b2 h1, .boxing .box1 .last .b1 p, .boxing .box1 .last .b3 p, .boxing .box1 .last .b2 p {
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+.boxing .box1 .last .b1 p, .boxing .box1 .last .b3 p, .boxing .box1 .last .b2 p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400px;
+}
+.boxing .box1 .last .b3 {
+  margin-right: 10px;
+}
+.boxing .box2 {
+  width: 566px;
+  height: 449px;
+  background: hsl(277, 64%, 61%);
+  border-radius: 5px;
+}
+.boxing .box2 img {
+  opacity: 0.5;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.boite2 {
+  margin: 50px;
+}
+
+.boxing2 {
+  width: 331px;
+  height: 780px;
+  border-radius: 5px;
+  background-color: hsl(244, 38%, 16%);
+}
+.boxing2 .boxx1 {
+  opacity: 0.5;
+  border-radius: 5px;
+}
+.boxing2 .boxx1 img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.boxx2 .ecri2 {
+  align-items: center;
+  padding-left: 55px;
+  font-family: "Inter", sans-serif;
+}
+.boxx2 .ecri2 h1 {
+  margin: 0;
+  padding-top: 25px;
+  color: hsl(0, 0%, 100%);
+}
+.boxx2 .ecri2 h1 span {
+  color: hsl(277, 64%, 61%);
+}
+.boxx2 .ecri2 .ecri3 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.boxx2 .ecri4 {
+  display: block;
+  padding-left: 25px;
+  width: 325px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+}
+.boxx2 .ecri4 .b11 {
+  margin: 0;
+  padding-left: 55px;
+}
+.boxx2 .ecri4 .b11 h1 {
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+  padding-left: 12px;
+}
+.boxx2 .ecri4 .b11 p {
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+}
+.boxx2 .ecri4 .b22 {
+  margin: 0;
+  padding-left: 55px;
+}
+.boxx2 .ecri4 .b22 h1 {
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+  padding-left: 15px;
+}
+.boxx2 .ecri4 .b22 p {
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+}
+.boxx2 .ecri4 .b33 {
+  margin: 0;
+  padding-left: 55px;
+  margin-right: 10px;
+}
+.boxx2 .ecri4 .b33 h1 {
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+.boxx2 .ecri4 .b33 p {
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding-left: 7px;
+  font-family: "Lexend Deca", sans-serif;
+}/*# sourceMappingURL=style.css.map */
